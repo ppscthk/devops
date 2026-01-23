@@ -1,0 +1,5 @@
+virtualmachines:
+  hosts:
+    sonarqube:
+      ansible_host: sonarqube
+# ssh -i devops.pem ubuntu@13.214.218.131

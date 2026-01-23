@@ -1,0 +1,5 @@
+virtualmachines:
+  hosts:
+    kong:
+      ansible_host: kong
+# ssh -i devops.pem ubuntu@13.214.218.131

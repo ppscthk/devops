@@ -10,11 +10,11 @@
     - name: enable microk8s
       shell: sudo snap install microk8s --classic
     
-    - name: wait ready
-      shell: microk8s status --wait-ready
-    
     - name: add group
       shell: sudo usermod -a -G microk8s ubuntu
+
+    - name: wait ready
+      shell: microk8s status --wait-ready
     
     - name: config to kubectl
       shell: microk8s config > ~/.kube/config

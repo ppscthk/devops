@@ -6,6 +6,10 @@ virtualmachines:
 #      ansible_host: k8s
 #     sonarqube:
 #       ansible_host: sonarqube
-     kong:
-       ansible_host: kong
+#     kong:
+#       ansible_host: kong
+#     master:
+#        ansible_host: jenkins
+     gitlab:
+         ansible_host: gitlab
 # ssh -i devops.pem ubuntu@13.214.218.131

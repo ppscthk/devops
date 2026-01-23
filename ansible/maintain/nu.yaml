@@ -1,0 +1,11 @@
+virtualmachines:
+  hosts:
+    gitlab68:
+    jenkins68:
+    k8smas01:
+    k8smas02:
+    k8smas03:
+    k8swork01:
+    k8swork02:
+    k8swork03:
+    k8swork04:
